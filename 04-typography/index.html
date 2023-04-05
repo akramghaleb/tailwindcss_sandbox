@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['ui-sans-serif', 'system-ui'],
+                    //serif : ['ui-serif', 'Georgia'],
+                    serif: ['Tapestry', 'Georgia'],
+                    mono: ['ui-monospace', 'SFMono-Regular'],
+                }
+            }
+        }
+    </script>
     <title>Typography</title>
-  </head>
-  <body>
-    <!-- Font Family -->
+</head>
+<body>
+<!-- Font Family -->
+<div class="font-sans">Tailwind CSS is awesome</div>
+<div class="font-serif">Tailwind CSS is awesome</div>
+<div class="font-mono">Tailwind CSS is awesome</div>
 
-    <!-- Font Size -->
+<!-- Font Size -->
+<div class="text-xs">Tailwind CSS is awesome</div>
+<div class="text-sm">Tailwind CSS is awesome</div>
+<div class="text-base">Tailwind CSS is awesome</div>
+<div class="text-lg">Tailwind CSS is awesome</div>
+<div class="text-xl">Tailwind CSS is awesome</div>
+<div class="text-2xl">Tailwind CSS is awesome</div>
+<div class="text-3xl">Tailwind CSS is awesome</div>
 
-    <!-- Font Weight -->
+<!-- Font Weight -->
+<div class="font-light">Tailwind CSS is awesome</div>
+<div class="font-normal">Tailwind CSS is awesome</div>
+<div class="font-medium">Tailwind CSS is awesome</div>
+<div class="font-semibold">Tailwind CSS is awesome</div>
+<div class="font-bold">Tailwind CSS is awesome</div>
 
-    <!-- Letter Spacing -->
+<!-- Letter Spacing -->
+<div class="tracking-tight">Tailwind CSS is awesome</div>
+<div class="tracking-normal">Tailwind CSS is awesome</div>
+<div class="tracking-wide">Tailwind CSS is awesome</div>
 
-    <!-- Text Alignment -->
+<!-- Text Alignment -->
+<div class="text-left">Tailwind CSS is awesome</div>
+<div class="text-center">Tailwind CSS is awesome</div>
+<div class="text-right">Tailwind CSS is awesome</div>
 
-    <!-- Text Decoration -->
+<!-- Text Decoration -->
+<div class="underline decoration-4 decoration-blue-400">Tailwind CSS is awesome</div>
 
-    <!-- Decoration Style -->
+<!-- Decoration Style -->
+<div class="underline decoration-double">Tailwind CSS is awesome</div>
+<div class="underline decoration-dotted">Tailwind CSS is awesome</div>
+<div class="underline decoration-dashed">Tailwind CSS is awesome</div>
+<div class="underline decoration-wavy">Tailwind CSS is awesome</div>
 
-    <!-- Decoration Offset -->
+<!-- Decoration Offset -->
+<div class="underline decoration-4 decoration-blue-400 underline-offset-8">
+    Tailwind CSS is awesome
+</div>
 
-    <!-- Text Transform -->
-  </body>
+<!-- Text Transform -->
+<div class="normal-case">Tailwind CSS is awesome</div>
+<div class="uppercase">Tailwind CSS is awesome</div>
+<div class="lowercase">Tailwind CSS is awesome</div>
+<div class="capitalize">Tailwind CSS is awesome</div>
+
+</body>
 </html>
 
 <!-- Font Family
